@@ -1,16 +1,17 @@
 // Packages
 import Unsplash from "unsplash-js";
-import Card from '../components/card';
 
 
 // Components
 import Layout from '../components/Layout';
 import Banner from '../components/banner';
+import Card from '../components/card';
 
 const Index = ({ collections }) => {
     return (
         <Layout>
-            <Banner />
+           <h1 style={{ marginBottom: 20, fontSize: '1.8em' }}>Next image component</h1>
+           <Banner /> 
            {collections.map((item) => (
                <Card key={item.id} {...item} />
            ))}
