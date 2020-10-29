@@ -2,7 +2,7 @@
 import Image from 'next/image';
 
 // Styles
-import styles from './card.module.css';
+import styles from './card.module.scss';
 
 const Card = ({ title, cover_photo }) => {
     return (
