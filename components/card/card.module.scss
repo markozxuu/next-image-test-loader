@@ -1,0 +1,19 @@
+.card {
+	margin-bottom: 50px;
+    width: 500px;
+    @media screen and (max-width: 800px) {
+       width: 300px;
+    }
+}
+
+.link {
+    text-align: center;
+	margin: 2rem 0;
+	font-size: 16pt;
+	display: block;
+	font-weight: bold;
+}
+
+.cover {
+    border-radius: 10px;
+}
