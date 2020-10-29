@@ -5,10 +5,12 @@ import Card from '../components/card';
 
 // Components
 import Layout from '../components/Layout';
+import Banner from '../components/banner';
 
 const Index = ({ collections }) => {
     return (
         <Layout>
+            <Banner />
            {collections.map((item) => (
                <Card key={item.id} {...item} />
            ))}
