@@ -6,6 +6,7 @@ import styles from './banner.module.css';
 const Banner = () => {
     return (
         <div className={styles.banner}>
+            <p>Hero image</p>
            <Image
               priority={true} 
               src="/retro.jpg" 
