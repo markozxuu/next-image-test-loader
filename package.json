@@ -9,5 +9,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "sass": "^1.27.1"
   }
 }
