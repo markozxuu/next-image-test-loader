@@ -5,12 +5,10 @@ import Card from '../components/card';
 
 // Components
 import Layout from '../components/Layout';
-import Banner from '../components/banner';
 
 const Index = ({ collections }) => {
     return (
         <Layout>
-            <Banner />
            {collections.map((item) => (
                <Card key={item.id} {...item} />
            ))}
@@ -30,5 +28,3 @@ export async function getStaticProps() {
 }
 
 export default Index;
-
-// yyM7J0rtEgc1eRvV0eL9tdgJOiIfXX9uDvoxdlM4NH4
